@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/kidzin_logo_removebg.png"
+    />
+    <title>K I D Z I N</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="./assets/icons/kidzin_logo_removebg.png" alt="logo-img"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i onclick="hideMenu() " class="fa fa-times"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i onclick="showMenu()" class="fa fa-bars"></i>
+      </nav>
+      <h1>Courses</h1>
+    </section>
+    <!-- ------------------------------course--------------------------------------- -->
+    <section class="course">
+      <h1>Smarty Programs</h1>
+      <p>
+        Explore our engaging and educational programs designed to nurture your
+        child's growth and curiosity.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Early Explorers</h3>
+          <p>
+            This program is for fostering a nurturing and productive learning
+            environment during the crucial early years of development. Age-group
+            <b>3.5 to 6.5 years</b>, with timing from
+            <b>8:30 AM to 12:00 PM</b>.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Foundational Years</h3>
+          <p>
+            Our foundational kindergarden years are vital for building a strong
+            educational base to ensure a stimulating and enriching experience
+            for your child. Age-group <strong>3.5 to 6.5 years</strong>, and
+            timing <strong>8:30 AM to 12:00 PM</strong>.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Day care</h3>
+          <p>
+            Our daycare service is designed to provide a safe and nurturing
+            environment for your child's care and development throughout the
+            day. Age-group <strong>1 to 7 years</strong>, offering extended
+            hours from <strong>6:00 AM to 6:00 PM</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ------------Facilities--------------- -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Explore our facilities designed for your child's growth and creativity.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="./assets/images/gallery/img_9.JPG" alt="" />
+          <h3>Qualified Teaching Staff and Expert Childcare Providers</h3>
+          <p>
+            Our preschool has a fantastic team of teachers and caregivers who
+            are well-trained and really good at taking care of kids. They love
+            helping children learn and grow in a safe and fun place. We're proud
+            to have them because they make our preschool a great place for your
+            little ones.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="./assets/images/gallery/img_2.jpg" alt="" />
+          <h3>Spacious Sensory Playroom</h3>
+          <p>
+            Our spacious sensory playroom is a haven for young explorers. Filled
+            with textures, colors, and interactive activities, it engages
+            children's senses, encouraging curiosity and creativity. This
+            vibrant space provides a safe and stimulating environment where
+            little ones can learn through touch, sight, and play, fostering
+            holistic development.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="./assets/images/gallery/img_19.jpg" alt="" />
+          <h3>Exciting Study Tour Programs</h3>
+          <p>
+            Our exciting study tour programs open doors to endless learning
+            adventures. These enriching field trips expose children to diverse
+            cultures, scientific wonders, and historical treasures. With
+            hands-on experiences beyond the classroom, kids embark on
+            educational journeys that ignite their curiosity and broaden their
+            horizons, making learning a thrilling adventure.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------footer---------------------- -->
+    <section class="footer">
+      <h4>Connect with us!</h4>
+      <div class="icons">
+        <a target="_blank" href="https://www.facebook.com/Kidzinpreschool"
+          ><i class="fa fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="#"></a><i class="fa fa-brands fa-twitter"></i>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/Kidzinindianpreschoolkuwait/"
+          ><i class="fa fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/kidzin-indian-preshool/"
+          ><i class="fa fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p>
+        Made&nbsp; with &nbsp;<i class="fa fa-regular fa-heart"></i>&nbsp; by
+        farzana.abdulkhader
+      </p>
+    </section>
+
+    <!-- ----------------------js-for-toggle-menu--------------------- -->
+
+    <script>
+      const navaLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

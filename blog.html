@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/kidzin_logo_removebg.png"
+    />
+    <title>K I D Z I N</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="./assets/icons/kidzin_logo_removebg.png" alt="logo-img"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i onclick="hideMenu() " class="fa fa-times"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i onclick="showMenu()" class="fa fa-bars"></i>
+      </nav>
+      <h1>Blog Posts</h1>
+    </section>
+    <!-- -------------------blog page content------------------------- -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <div id="blog-1" style="display: block">
+            <img
+              class="img-filter"
+              src="./assets/images/gallery/img_16.JPG"
+              alt=""
+            />
+            <h2>
+              Our Certificate & Online Programs For
+              <span class="current-year">current year</span>
+            </h2>
+            <p>
+              Looking ahead to 2023, we are excited to announce our enhanced
+              Certificate and Online Programs. These innovative offerings are
+              designed to provide even greater flexibility and accessibility for
+              parents and children. Whether you're interested in our on-site
+              preschool experience or prefer the convenience of online learning,
+              our programs are thoughtfully designed to ensure your child
+              receives the best possible early education. Join us in shaping a
+              bright future for your child in 2023 and beyond.
+            </p>
+          </div>
+          <div id="blog-2" style="display: none">
+            <img
+              class="img-filter"
+              src="./assets/images/Healthy-blog.jpg"
+              alt=""
+            />
+            <h2>Healthy Habits for Preschoolers: Diet and Exercise Tips</h2>
+            <p>
+              Helping your preschooler develop healthy habits is a top priority.
+              Here are some concise tips for balancing diet and exercise in your
+              child's life: <br /><b>Diet:</b><br />
+              Variety is Key: Offer fruits, veggies, whole grains, lean
+              proteins, and dairy. <br />Smart Snacking: Choose nutritious
+              snacks and limit sugary treats. <br />Stay Hydrated: Encourage
+              water over sugary drinks. <br />Routine Meals: Set regular meal
+              and snack times. <br />Family Dinners: Share meals as a family
+              when possible.<br /><b>Exercise:</b> <br />Active Play: Encourage
+              activities like running, jumping, and dancing. <br />Limit Screen
+              Time: Stick to age-appropriate screen time limits. <br />Outdoor
+              Fun: Enjoy nature walks, bike rides, and playground visits.
+              <br />Lead by Example: Be a positive role model for healthy
+              habits. <br />Pediatrician: Consult your child's pediatrician for
+              guidance. <br />By focusing on these simple strategies, you can
+              help your preschooler establish a foundation for a healthy and
+              active life.
+            </p>
+          </div>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span class="blog-post" id="toggleButton" on-click="changePost()"
+              >Parenting Tips</span
+            >
+            <span>1</span>
+          </div>
+          <div>
+            <span class="blog-post">Art and Creativity</span>
+            <span>2</span>
+          </div>
+          <div>
+            <span class="blog-post">Special Events</span>
+            <span>5</span>
+          </div>
+          <div>
+            <span class="blog-post">Summer Camp</span>
+            <span>3</span>
+          </div>
+          <div>
+            <span class="blog-post">Educational Activities</span>
+            <span>4</span>
+          </div>
+          <div>
+            <span class="blog-post">Social and Emotional Development</span>
+            <span>3</span>
+          </div>
+          <div>
+            <span class="blog-post">Outdoor Play</span>
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------footer---------------------- -->
+    <section class="footer">
+      <h4>Connect with us!</h4>
+      <div class="icons">
+        <a target="_blank" href="https://www.facebook.com/Kidzinpreschool"
+          ><i class="fa fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="#"></a><i class="fa fa-brands fa-twitter"></i>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/Kidzinindianpreschoolkuwait/"
+          ><i class="fa fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/kidzin-indian-preshool/"
+          ><i class="fa fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p>
+        Made&nbsp; with &nbsp;<i class="fa fa-regular fa-heart"></i>&nbsp; by
+        farzana.abdulkhader
+      </p>
+    </section>
+
+    <!-- ----------------------js-for-toggle-menu--------------------- -->
+
+    <script>
+      const navaLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      //  -------------------year-----------------------------
+      const currentYear = document.querySelectorAll(".current-year");
+      for (let i = 0; i < currentYear.length; i++) {
+        currentYear[i].innerHTML = new Date().getFullYear();
+      }
+
+      // ----------------------blog------------------------------
+      const toggleButton = document.getElementById("toggleButton");
+      const blog1 = document.getElementById("blog-1");
+      const blog2 = document.getElementById("blog-2");
+
+      toggleButton.addEventListener("click", function () {
+        if (blog1.style.display === "none") {
+          blog1.style.display = "block";
+        } else {
+          blog1.style.display = "none";
+        }
+        if (blog2.style.display === "none") {
+          blog2.style.display = "block";
+        } else {
+          blog2.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
